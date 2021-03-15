@@ -1,8 +1,6 @@
 package ArrayConcepts;
 
-import java.util.Arrays;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class RandomNumberForCar {
 
@@ -14,7 +12,7 @@ public class RandomNumberForCar {
 
         // create random object
         Random rand = new Random();
-        for(int i=0; i<noOfCars; i++){
+        for(int i=0; i<noOfCars; i++){cd
             arr[i] = "MH" + rand.nextInt(9999);
         }
         System.out.println("Car number : "+ Arrays.toString(arr));
